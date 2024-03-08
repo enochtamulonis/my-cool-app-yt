@@ -23,6 +23,7 @@ module MyCoolApp
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
-    config.hosts << /^[^.]+\.?rescupe\.com$/
+    config.hosts << "www.rescupe.com"
+    config.hosts << "rescupe.com"
   end
 end
